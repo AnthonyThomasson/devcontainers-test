@@ -5,7 +5,7 @@ services:
     volumes:
       - devcontainer-zshhistory:/commandhistory
       - ./../:/workspaces:cached
-      - /var/run/docker.sock:/var/run/docker.sock
+      # - /var/run/docker.sock:/var/run/docker.sock
     command: sleep infinity
 
   # docker:
